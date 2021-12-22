@@ -1,0 +1,85 @@
+.checkout_mainContainer{
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    /* background-image: url('../../assets/img/bg/bg2.jpg');
+    height: 100vh;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100% */
+}
+.screen{
+    border-bottom: 50px solid rgb(255, 159, 95);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 100;
+    width:80%;
+    margin: 0 auto;
+    filter: drop-shadow(4px 30px 20px rgba(0, 0, 0,0.3 ));
+    font-size: 25px;
+    color: #fff;
+}
+
+.ghe{
+    height: 35px;
+    padding: 5px;
+    width: 35px;
+    margin-right: 10px;
+    background-color: #95afc0;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.ghe:hover{
+    background-color: #3ae374;
+    color: white;
+}
+.ghe_vip{
+    background-color: orange;
+}
+.ghe_sold{
+    cursor: no-drop;
+    position: relative;
+    background-color: red !important;
+    top: 0px;
+}
+.ghe_booking{
+    background-color: #3ae374  !important;
+    color: white;
+}
+.ghe_booked{
+    background-color: #eb2f06;
+    color: white;
+}
+.ghe_other_user_booking{
+    background-color: lightseagreen;
+    cursor: no-drop;
+}
+.checkOut__filmPoster{
+    overflow: hidden;
+    position: relative;
+}
+
+
+/* custom nav antd */
+.checkout_mainContainer .ant-tabs-tab-btn{
+        font-size: 1.4rem;
+        color: black;
+        transition: color .4s;
+}
+.checkout_mainContainer .ant-tabs-tab-btn:hover{
+    color: #fa983a;
+}
+.checkout_mainContainer .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #fa983a;
+}
+.checkout_mainContainer .ant-tabs-top > .ant-tabs-nav::before{
+    background-color: #fa983a;
+}
+.checkout_mainContainer .ant-tabs-ink-bar{
+    background: #fa983a 
+}
+
+
+

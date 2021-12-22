@@ -1,0 +1,6 @@
+.ant-carousel .slick-dots{
+    margin: 0 !important;
+}
+.ant-carousel .slick-dots-bottom{
+    display: none !important;
+}

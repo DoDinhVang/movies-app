@@ -1,0 +1,36 @@
+.slick-prev, .slick-next{
+    height: 100%;
+    z-index: 100;
+    width: 80px;
+    background-color: #F5F8F7 !important;
+   
+  
+    
+}
+.slick-prev:before, .slick-next:before{
+    content: '' !important;
+    display: block;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.3;
+   
+}
+
+.slick-prev:before{
+   /* content: 'hlo'; */
+    background-image: url('../../assets/img/arrows/left-arrow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.slick-next:before{
+    background-image: url('../../assets/img/arrows/right-arrow.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

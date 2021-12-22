@@ -1,0 +1,18 @@
+#myProfile input, #myProfile select{
+    background-color: rgba(255, 255, 255, 0.1);
+    /* -webkit-backdrop-filter: blur(10px); */
+            backdrop-filter: blur(20px);
+    border: none;
+    height: 50px;
+    padding: 0 14px;
+}
+#myProfile input:focus, #myProfile select:focus{
+    outline: none;
+}
+#myProfile .primary-text{
+    color: #d5d5d5;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    margin: 5px 0;
+}

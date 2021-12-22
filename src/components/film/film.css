@@ -1,0 +1,81 @@
+
+#film .film__img{
+    position: relative;
+    transition: all .2s;
+}
+
+#film .film__iconPlay{
+    display: inline-block;
+    color: white;
+    font-size: 1.2rem;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transition: all .2s;
+    transform: translate(-50%,-50%);
+}
+#film .film__desc{
+    position: absolute;
+    text-align: left;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    width: 100%;;
+    padding: 7px 14px;
+    color: #fff;
+    font-size: 1.2 rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    transition: all .5s;
+}
+#film .film__desc .film__rate{
+    font-size: 0.8rem;
+    margin-bottom: 3px;
+}
+#film .film__overplay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0,0,0,0.2) );
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+#film .film__bookingTicket{
+    position: absolute;
+    z-index: 100;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 14px 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#film .film__img:hover .film__bookingTicket{
+    bottom: 0;
+    opacity: 1;
+}
+/*  hover */
+#film .film__img:hover .film__desc {
+    bottom: 65px;
+}
+#film .film__img:hover img{
+    transform: scale(1.1);
+}
+#film .film__iconPlay:hover ~ img{
+    transform: scale(1.1);
+}
+
+#film .film__iconPlay:hover img{
+    transform: scale(1.2);
+}

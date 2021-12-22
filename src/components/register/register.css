@@ -1,0 +1,61 @@
+#register.signup__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#register .signup__title{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+#register .form__group{
+    height: 34px;
+    margin-bottom: 75px;
+}
+#register .form__group:last-child{
+    margin-top: 65px;
+}
+#register .form__group label{
+    color: #CCCCCC;
+    font-size: 18px;
+}
+#register .form__control{
+   background-color: transparent;
+   height: 100%;
+   width: 100%;
+   border-bottom: 1px solid #CCCCCC;
+   outline: none;
+ 
+}
+#register .form__control:focus{
+    border-color: #111;
+}
+
+#register .btn__signup, .btn__signin{
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all .5s;
+}
+#register .btn__signin{
+    color: #787878;
+    padding: 7px;
+}
+#register .btn__signup{
+    padding: 14px 28px;
+    background-color: #111111;
+    color: white;
+    border-radius: 28px;
+   
+  
+}
+#register .btn__signup:hover{
+    background-color: #323232;
+}
+#register .btn__signup:hover{
+    color: #787878;
+}
+#register .btn__signin:hover{
+    color: #111111
+}

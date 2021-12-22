@@ -1,0 +1,44 @@
+.header__redirect {
+    color: white;
+    font-weight: 500;
+    position: relative;
+  
+}
+.header__redirect:hover{
+    color: #09AFE4;
+}
+.header__redirect::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 2px;
+    width: 0;
+    border-bottom: 2px solid #09AFE4;
+    transition: all .5s;
+
+}
+.header__redirect:hover::after{
+    width: 100%;
+}
+.header__active{
+    color: #09AFE4;
+}
+.header__active::after{
+    width: 100%;
+}
+
+.user_account:hover ~ .logout_active{
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: visible;
+}
+/* custom dropdown ant design */
+#header .ant-btn-group .ant-btn:first-child ,#header .ant-btn-group .ant-btn:last-child{
+    height: 100%;
+}
+#header .ant-btn-group .ant-btn:first-child{
+    cursor: none;
+    pointer-events: none;
+}
